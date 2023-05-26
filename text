@@ -1,8 +1,0 @@
-Postgres cluster juanmcellpostgres created
-  Username:    postgres
-  Password:    RQz0fzQJpkUjphr
-  Hostname:    juanmcellpostgres.internal
-  Flycast:     fdaa:2:3f26:0:1::2
-  Proxy port:  5432
-  Postgres port:  5433
-  Connection string: postgres://postgres:RQz0fzQJpkUjphr@juanmcellpostgres.flycast:5432

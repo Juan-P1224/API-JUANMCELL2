@@ -19,7 +19,7 @@ FROM base as build
 # Install packages needed to build node modules
 RUN apt-get update -qq && \
     apt-get install -y python-is-python3 pkg-config build-essential 
-RUN npm install -g npm@9.6.7
+
 # Install node modules
 COPY --link package.json package-lock.json ./
 RUN npm ci --include=dev
